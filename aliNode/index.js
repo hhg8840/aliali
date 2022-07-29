@@ -11,11 +11,13 @@ const categoryDirectory = path.join(process.cwd());
 // INIT HTTP CLIENT
 ApiClient = require("ali-topsdk/index").ApiClient;
 var client = new ApiClient({
-    appkey: "32834908",
-    appsecret: "a82776329db1bebab5288249ccfb93be",
+    appkey: "33566210",
+    appsecret: "db425524c31953086c6058dfe3fd9e71",
     REST_URL: "http://gw.api.taobao.com/router/rest",
 });
-const app_signature = "winterlood";
+// const app_signature = "winterlood";
+const app_signature = "autoali_1";
+
 
 // BUSINESS LOGICS
 function getCurrentDate() {
