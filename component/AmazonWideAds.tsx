@@ -18,34 +18,17 @@ const AmazonWideAds = () => {
                     <>
                         {width >= 728 ? (
                             <iframe
-                                src={
-                                    "//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ez&f=ifr&linkID=0d2f0506cc99ef7ee34ff078bb77ef00&t=winterlood-20&tracking_id=winterlood-20"
-                                }
-                                width="728"
-                                height="90"
-                                scrolling="no"
-                                frameBorder="0"
-                            ></iframe>
+                                src="https://ads-partners.coupang.com/widgets.html?id=348254&template=banner&trackingCode=AF5174309&subId=&width=728&height=90"
+                                width="728" height="90" frameBorder="0" scrolling="no"
+                                referrerPolicy="unsafe-url"></iframe>
                         ) : width >= 468 ? (
                             <iframe
-                                src={
-                                    "//rcm-na.amazon-adsystem.com/e/cm?o=1&p=13&l=ez&f=ifr&linkID=96b5ad64afe105278b36dbd1cec21518&t=winterlood-20&tracking_id=winterlood-20"
-                                }
-                                width="468"
-                                height="60"
-                                scrolling="no"
-                                frameBorder="0"
-                            ></iframe>
+                                src="https://ads-partners.coupang.com/widgets.html?id=348254&template=banner&trackingCode=AF5174309&subId=&width=468&height=90"
+                                width="468" height="90" frameBorder="0" scrolling="no"
+                                referrerPolicy="unsafe-url"></iframe>
                         ) : (
-                            <iframe
-                                src={
-                                    "//rcm-na.amazon-adsystem.com/e/cm?o=1&p=12&l=ez&f=ifr&linkID=c94c3cd949a602b4d104aad3717c04af&t=winterlood-20&tracking_id=winterlood-20"
-                                }
-                                width="300"
-                                height="250"
-                                scrolling="no"
-                                frameBorder="0"
-                            ></iframe>
+                            <iframe src="https://coupa.ng/cc0PDv" width="100%" height="36" frameBorder="0"
+                                    scrolling="no" referrerPolicy="unsafe-url"></iframe>
                         )}
                     </>
                 )}

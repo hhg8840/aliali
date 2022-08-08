@@ -178,9 +178,9 @@ const CategoryPage = ({ data }) => {
     const { cur_category_data, category_list } = data;
 
     const metaObj = {
-        domain: "https://aliall.shop/",
-        title: `${cur_category_data.category_name} 👉 All About AliExpress - AliAll`,
-        url: `https://aliall.shop/${cur_category_data.category_id}`,
+        domain: "https://aliali.shop/",
+        title: `${cur_category_data.category_name} 👉 All About AliExpress - aliali`,
+        url: `https://aliali.shop/${cur_category_data.category_id}`,
         image: `${shareImage.src}`,
         description: `Hot Product ${cur_category_data.category_name} - ${cur_category_data.product_list
             .slice(0, 5)

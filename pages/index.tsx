@@ -14,9 +14,9 @@ const Index = ({ data }) => {
         <div>
             <Head>
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="All About AliExpress - AliAll"></meta>
+                <meta property="og:title" content="All About AliExpress - aliali"></meta>
                 <meta property="og:image" content={shareImage.src} />
-                <meta property="og:url" content="https://aliall.shop/"></meta>
+                <meta property="og:url" content="https://aliali.shop/"></meta>
                 <meta
                     property="og:description"
                     content="The cheapest, fastest and most efficient way to buy aliexpress"

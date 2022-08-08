@@ -13,9 +13,9 @@ const DetailPage = ({ data }) => {
     () => import("../../component/AmazonWideAds")
   );
   const metaObj = {
-    domain: "https://aliall.shop/",
-    title: `${data.product_title} - Hot ${data.first_level_category_name} 👉 All About AliExpress - AliAll`,
-    url: `https://aliall.shop/${data.first_level_category_id}/${data.product_id}`,
+    domain: "https://aliali.shop/",
+    title: `${data.product_title} - Hot ${data.first_level_category_name} 👉 All About AliExpress - aliali`,
+    url: `https://aliali.shop/${data.first_level_category_id}/${data.product_id}`,
     image: `${data.product_main_image_url}`,
     description: `${data.product_title}, ${data.first_level_category_name}, ${data.second_level_category_name}`,
     price_amount: `${data.sale_price}`,

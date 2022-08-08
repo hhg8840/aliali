@@ -36,10 +36,10 @@ const MyApp = ({ Component, pageProps }) => {
                 {/* YANDEX */}
                 {/*<meta name="yandex-verification" content="fcfee01da6ee80bd" />*/}
                 {/*<script src="https://unpkg.com/embla-carousel"></script>*/}
-                <title>All About AliExpress - AliAll</title>
+                <title>All About AliExpress - aliali</title>
                 <meta http-equiv="content-language" content="en" />
                 <meta name={"viewport"} content="width=device-width, initial-scale=1" />
-                <meta property="og:site_name" content="aliall.shop"></meta>
+                <meta property="og:site_name" content="aliali.shop"></meta>
             </Head>
             <Header />
             <div className="article">
